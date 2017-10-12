@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>宽客小岛</title>
+    <link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_URL}lib/normalize.css"></head>
+    <link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_URL}style.css">
+<body>
+    <div class="headerbg">
+        <div class="topnav">
+            <ul class="nav">
+                <li>
+                    <a href="{$smarty.const.__MODULE__}/Index/index.html">首页</a>
+                </li>
+                {foreach $e as $k4 => $v4}
+                {if $v4.tag==1}
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=1" class="selected">高频交易</a>
+                </li> 
+
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=2">阿尔法策略</a>
+                </li>
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=3">事件驱动策略</a>
+                </li>
+                {/if}
+                 {if $v4.tag==2}
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=1" >高频交易</a>
+                </li> 
+
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=2" class="selected">阿尔法策略</a>
+                </li>
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=3">事件驱动策略</a>
+                </li>
+                {/if}
+
+                 {if $v4.tag==3}
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=1" >高频交易</a>
+                </li> 
+
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=2">阿尔法策略</a>
+                </li>
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=3" class="selected">事件驱动策略</a>
+                </li>
+                {/if}
+                {/foreach}
+                <li>
+                    <a href="{$smarty.const.__MODULE__}/Index/about.html">关于我们</a>
+                </li>
+            </ul>
+        </div>
+        {foreach $c as $k => $v}
+        <div class="signinandup">
+            {if $v.session==''}
+            <a href="{$smarty.const.__MODULE__}/Login/index">登录</a>
+            <a href="{$smarty.const.__MODULE__}/Register/index">注册</a>
+
+            {/if}
+     {if $v.session==3}
+                  <a href="{$smarty.const.__MODULE__}/User/threelevel_1">个人中心</a>
+                   <a href="{$smarty.const.__CONTROLLER__}/publish">发布文章</a>
+                   <a href="{$smarty.const.__CONTROLLER__}/tuichu">退出登录</a>
+               
+            {/if}
+            {if $v.session==2}
+                  <a href="{$smarty.const.__MODULE__}/User/twolevel_1">个人中心</a>
+                   <a href="{$smarty.const.__CONTROLLER__}/publish">发布文章</a>
+                   <a href="{$smarty.const.__CONTROLLER__}/tuichu">退出登录</a>
+               
+            {/if}
+             {if $v.session==1}
+                  
+                  <a href="{$smarty.const.__MODULE__}/User/onelevel">个人中心</a>
+                   <a href="{$smarty.const.__CONTROLLER__}/tuichu">退出登录</a>
+               
+            {/if}
+        </div>
+        {/foreach}
+    </div>
+    <div class="smallbanner">
+        <img src="{$smarty.const.CSS_URL}images/smallbanner.gif" />
+    </div>
+    <div class="contentbg">
+        <div class="contentlist">
+            {foreach $a as $k => $v}
+            <li class="passagelist">
+                <div class="rightfig" >
+                    
+                    <img src="{$v.picture}" alt="picture of artical" /></div>
+                <div class="leftinfo">
+                    <div class="classification">{if $v.tag==1}高频交易{/if}{if $v.tag==2}阿尔法策略{/if}{if $v.tag==3}事件驱动{/if}</div>
+                    <h2><a href="{$smarty.const.__CONTROLLER__}/detail?id={$v.id}">{$v.title}</a></h2>
+                    <div class="contentmeta">
+                        <p>发布于&nbsp;</p>
+                        <span>{$v.time}</span>
+                        <p>作者:</p>
+                        <span>{$v.nickname}</span>
+                        <p>评论:</p>
+                        <span>{$v.reply}</span>
+                    </div>
+                    <p class="passagesum">
+                        {$v.introduction}
+                    </p>
+                </div>
+            </li>
+            {/foreach}
+            
+        </div>
+        <div class="tcdPageCode">
+            {$pagelist}
+        </div>
+    </div>
+    <div class="footer">
+        <p>版权所有 © 2013 3.武汉奎可利金融科技有限公司&nbsp;&nbsp;&nbsp;<!-- <a href="">后台入口</a> -->
+        </p>
+        <p>备案号是 鄂ICP备14006544号</p>
+    </div>
+    
+</body>
+</html>

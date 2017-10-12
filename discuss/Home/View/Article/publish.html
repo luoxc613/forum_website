@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>宽客小岛</title>
+	<link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_URL}lib/normalize.css"></head>
+	<link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_URL}style.css">
+<body>
+	<div class="headerbg">
+		<div class="topnav">
+			<ul class="nav">
+				<li>
+					<a href="{$smarty.const.__MODULE__}/Index/index.html">首页</a>
+				</li>
+				<li>
+					<a href="{$smarty.const.__CONTROLLER__}/index?tag=1">高频交易</a>
+				</li>
+				<li>
+					<a href="{$smarty.const.__CONTROLLER__}/index?tag=2">阿尔法策略</a>
+				</li>
+				<li>
+					<a href="{$smarty.const.__CONTROLLER__}/index?tag=3">事件驱动策略</a>
+				</li>
+				<li>
+					<a href="{$smarty.const.__MODULE__}/Index/about.html">关于我们</a>
+				</li>
+			</ul>
+		</div>
+		 {foreach $d as $k => $v}
+        <div class="signinandup">
+            {if $v.session==''}
+            <a href="{$smarty.const.__MODULE__}/Login/index">登录</a>
+            <a href="{$smarty.const.__MODULE__}/Register/index">注册</a>
+
+            {/if}
+     
+            {if $v.session!=''}
+                  
+                   <a href="{$smarty.const.__CONTROLLER__}/tuichu">退出登录</a>
+               
+            {/if}
+        </div>
+        {/foreach}
+	</div>
+	<div class="contentbg">
+		<div class="passagediv">
+			<form class="inner" action="{$smarty.const.__SELF__}" method="post" name="articalfrom" enctype="multipart/form-data">
+				<!-- <div class="classlist">
+						<h3 id="selected" name="class" onmouseover="showitem()" onmouseout="hiditem()">选择分类</h3>
+						<ul id="classlist">
+						<li class="classitem" onclick="changeitem(0)" onmouseover="showitem()" onmouseout="hiditem()">高频交易</li>
+						<li class="classitem" onclick="changeitem(1)" onmouseover="showitem()" onmouseout="hiditem()">阿尔法策略</li>
+						<li class="classitem" onclick="changeitem(2)" onmouseover="showitem()" onmouseout="hiditem()">事件驱动策略</li>
+					</ul>
+				</div> -->
+				<p class="coverimgtxt">选择分类：</p>
+				<input type="radio" checked="checked" name="class" value="1" /><label>高频交易</label>
+				<input type="radio" checked="checked" name="class" value="2" /><label>阿尔法策略</label>
+				<input type="radio" checked="checked" name="class" value="3" /><label>事件驱动策略</label><br />
+				<p class="coverimgtxt">输入文章标题：</p>
+				<input type="text" name="title" class="articalname" placeholder="请输入文章标题..." autofocus="autofocus" required="required" />
+				<p class="coverimgtxt">上传封面照片：</p>
+				<div class="file-box">
+				
+				 
+				<input type="input" name="picture" laceholder="请输入上传封面照片URL..."class="filebtn" multiple />
+				<!-- <input type='text' name='textfield' id='textfield' class='txt' />
+				<input type='button' class='btn' value='浏览...' />
+				<input type="file" name="fileField" class="file" id="fileField" size="28" onchange="document.getElementById('textfield').value=this.value" /> -->
+				
+				</div> 
+				<p class="coverimgtxt">输入文章概要：</p>
+				<textarea class="summary" required="required" name="introduction" placeholder="请输入文章概要..."></textarea>
+				<p class="bigger">内容</p>
+				<div class="wmd-panel2">
+					<div id="wmd-button-bar"></div>
+					<textarea name="content1"class="wmd-input" id="wmd-input"></textarea>
+				</div>
+				<input id="submitartical" type="submit" value="发表文章" onclick="submitarc()" />
+				<input id="cancel" type="submit" value="取消" onclick="clearartical()" />
+				<div id="wmd-preview" name="artical" class="wmd-panel wmd-preview"></div>
+				<input name="content" type="text" id="articalcontent"  />
+				<div class="clear"></div>
+			</form>
+		</div>
+	</div>
+	<div class="footer">
+		<p>版权所有 © 2013 3.武汉奎可利金融科技有限公司&nbsp;&nbsp;&nbsp;<!-- <a href="">后台入口</a> -->
+        </p>
+		<p>备案号是 鄂ICP备14006544号</p>
+	</div>
+	<script type="text/javascript" src="{$smarty.const.JS_URL}lib/Markdown.Converter.js"></script>
+	<script type="text/javascript" src="{$smarty.const.JS_URL}lib/Markdown.Sanitizer.js"></script>
+	<script type="text/javascript" src="{$smarty.const.JS_URL}lib/Markdown.Editor.js"></script>
+{literal}
+	<script type="text/javascript">
+            (function () {
+                var converter1 = Markdown.getSanitizingConverter();
+                
+                converter1.hooks.chain("preBlockGamut", function (text, rbg) {
+                    return text.replace(/^ {0,3}""" *\n((?:.*?\n)+?) {0,3}""" *$/gm, function (whole, inner) {
+                        return "<blockquote>" + rbg(inner) + "</blockquote>\n";
+                    });
+                });
+                
+                var editor1 = new Markdown.Editor(converter1);
+                
+                editor1.run();
+            })();
+    </script>
+	<script type="text/javascript"> 
+       function submitarc() {
+       		var articalcontent = document.getElementById('wmd-preview').innerHTML;
+       		document.getElementById('articalcontent').value = articalcontent;
+        } 
+       
+		function clearartical() {
+			if (confirm("你确定放弃发布这篇文章？")) {  
+            document.getElementById('wmd-preview').innerHTML = null;
+            document.getElementById('wmd-input').value = null;
+        	}  
+		}
+    </script>
+	<noscript>你的浏览器没有启用脚本，所以无法正常显示~</noscript>
+	{/literal}
+</body>
+</html>

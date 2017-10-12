@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>宽客小岛</title>
+    <link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_URL}lib/normalize.css"></head>
+    <link rel="stylesheet" type="text/css" href="{$smarty.const.CSS_URL}style.css">
+<body>
+    <div class="headerbg">
+        <div class="topnav">
+            <ul class="nav">
+                <li>
+                    <a href="{$smarty.const.__MODULE__}/Index/index.html">首页</a>
+                </li>
+                {foreach $e as $k4 => $v4}
+                {if $v4.tag==1}
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=1" class="selected">高频交易</a>
+                </li> 
+
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=2">阿尔法策略</a>
+                </li>
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=3">事件驱动策略</a>
+                </li>
+                {/if}
+                 {if $v4.tag==2}
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=1" >高频交易</a>
+                </li> 
+
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=2" class="selected">阿尔法策略</a>
+                </li>
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=3">事件驱动策略</a>
+                </li>
+                {/if}
+
+                 {if $v4.tag==3}
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=1" >高频交易</a>
+                </li> 
+
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=2">阿尔法策略</a>
+                </li>
+                <li>
+                    <a href="{$smarty.const.__CONTROLLER__}/index?tag=3" class="selected">事件驱动策略</a>
+                </li>
+                {/if}
+                {/foreach}
+                <li>
+                    <a href="{$smarty.const.__MODULE__}/Index/about.html">关于我们</a>
+                </li>
+            </ul>
+        </div>
+        {foreach $f as $k => $v}
+        <div class="signinandup">
+            {if $v.session==''}
+            <a href="{$smarty.const.__MODULE__}/Login/index">登录</a>
+            <a href="{$smarty.const.__MODULE__}/Register/index">注册</a>
+
+            {/if}
+     
+            {if $v.session==2}
+                  
+                   <a href="{$smarty.const.__CONTROLLER__}/publish">发布文章</a>
+                   <a href="{$smarty.const.__CONTROLLER__}/tuichu">退出登录</a>
+               
+            {/if}
+             {if $v.session==1}
+                  
+                   <a href="{$smarty.const.__CONTROLLER__}/tuichu">退出登录</a>
+               
+            {/if}
+        </div>
+        {/foreach}
+    </div>
+
+    {foreach $a as $k => $v}
+    <div class="contentbg">
+        <div class="passagediv">
+       
+            <h2>{$v.title}</h2>
+            <div class="contentmeta">
+                <p>发布于&nbsp;</p>
+                <span class="releasetime">{$v.time}</span>
+                <p>作者:</p>
+                <span class="author">{$v.nickname}</span>
+                <p>评论:</p>
+                <span class="commentnuum">{$v.reply}</span>
+            </div>
+            <div class="wholepassage">
+                <p>
+                    {$v.content}
+                </p>
+            </div>
+            {/foreach}
+            <div class="comments">
+                <div class="commentsheader">&nbsp;&nbsp;评论</div>
+                <div class="list">
+                    <ul class="commentlist">
+                        {foreach $b as $k2 => $v2}
+                        <li class="commentitem">
+                            <div class="user">
+                                {$v2.nickname}
+                            </div>
+                            <div class="marktime">
+                                <span>{$v2.time}</span>
+                            </div>
+                            <!-- <form  method= "post" action="{$smarty.const.__SELF__}" name="commentform"> -->
+                             <input type="button" name="content" value="回复" class="showreplybtn" onclick="showreply(this)" />
+                        <div class="commentcontent">
+                                <p>{$v2.content}</p>
+                            </div>
+                            <form class="replyform" method="post" action="{$smarty.const.__SELF__}">
+                            <textarea name="content"   >
+                            </textarea>
+                            <input type="hidden" name="a_id" value="{$v2.a_id}">
+                            <input type="hidden" name="r_id" value="{$v2.id}">
+                            <input type="submit" value="回复" />
+                            <input type="button" value="取消" onclick="hiddenreply(this)" class="replycancel" />
+                            </form>
+                              <!-- <input type="hidden" name="a_id" value="{$v2.a_id}"> -->
+                              <!-- <input type="hidden" name="r_id" value="{$v2.id}"> -->
+                            <!-- <input type="hidden" name="u_id" value="{$v2.user_id}"> -->
+
+                            <!-- </form> -->
+                            {foreach $c as $k3 => $v3}
+                            {if $v3.r_id==$v2.id}
+                            <div class="rereply"  >
+                                <p>{$v3.content}</p>
+                                <span class="username">{$v3.nickname}</span>
+                                <span class="marktime">{$v3.time}</span>
+                            </div>
+                            {/if}
+                            {/foreach}
+                        </li>
+                        {/foreach}
+                    </ul>
+                </div>
+                {foreach $d as $k3 => $v3}
+                <form  method= "post" action="{$smarty.const.__SELF__}" name="commentform" class="commentform">
+                
+                <input type="hidden" name="a_id" value="{$v3.a_id}">
+                <input type="hidden" name="user_id" value="{$v3.u_id}">
+                <input type="hidden" name="r_id" value=0>
+                <textarea   name="content" type="text" class="commentarea" required="required"></textarea>
+                <input id="submitcomment" type="submit" value="发表评论" onclick="submitcomment()" /> 
+
+                
+                </form>
+                {/foreach}
+            </div>
+        </div>
+    </div>
+     <div class="tcdPageCode">
+            {$pagelist}
+        </div>
+    <div class="footer">
+        <p>版权所有 © 2013 3.武汉奎可利金融科技有限公司&nbsp;&nbsp;&nbsp;<!-- <a href="">后台入口</a> -->
+        </p>
+        <p>备案号是 鄂ICP备14006544号</p>
+    </div>
+    
+    <script src="{$smarty.const.JS_URL}lib/jquery-2.0.0.min.js"></script>
+    {literal}<script type="text/javascript"> 
+    function showreply(a) {
+        var showbtn = $(a);
+        var replyform = $(showbtn).siblings('form');
+        replyform.css({'display':'block'});
+    }
+    function hiddenreply(b) {
+        var hidbtn = $(b);
+        var replyform = $(hidbtn).parents('form');
+        replyform.css({'display':'none'});
+    }
+    </script>
+    {/literal}
+</body>
+</html>

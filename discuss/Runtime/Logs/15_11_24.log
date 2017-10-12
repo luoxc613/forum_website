@@ -1,0 +1,2917 @@
+[ 2015-11-24T23:11:35+08:00 ] ::1 /luntan/discuss/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.061003s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.198011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.199011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-24T23:11:39+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.043003s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.022001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.081005s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:1.005057s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.007057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-11-24T23:11:41+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='2' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: select * from article where ( states=1 and tag='2') order by time desc Limit 0, 8 [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id=0 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=3 and r_id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=2 and r_id=0 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.001000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-24T23:11:43+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-24T23:11:44+08:00 ] ::1 /luntan/discuss/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-24T23:11:46+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.038003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-24T23:13:38+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.107006s ]
+SQL: SELECT * FROM `article` WHERE ( id=4 )  [ RunTime:0.002001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id =0 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id!=0 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 219 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 219 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:1.480084s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.481085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-11-24T23:13:48+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='2' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: select * from article where ( states=1 and tag='2') order by time desc Limit 0, 8 [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=3 and r_id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=2 and r_id=0 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id=0 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.005001s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.003000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-24T23:13:51+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=3
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='3' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: select * from article where ( states=1 and tag='3') order by time desc Limit 0, 8 [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=7 and r_id=0 ) LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=5 and r_id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.004000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-24T23:13:54+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=5
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `article` WHERE ( id=5 )  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=5 and r_id =0 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=5 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=5 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=5 and r_id!=0 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 219 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 219 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-11-24T23:14:01+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='2' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: select * from article where ( states=1 and tag='2') order by time desc Limit 0, 8 [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=3 and r_id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=2 and r_id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.001000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-24T23:14:03+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `article` WHERE ( id=1 )  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id =0 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=1 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.003000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=1 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id!=0 ) LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.002000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 219 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 219 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-24T23:14:18+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.033002s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `article` WHERE ( id=1 )  [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id =0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=1 and r_id =0 ) ORDER BY time desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=1 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.003001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id!=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.002001s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.002000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 219 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 219 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2015-11-24T23:14:26+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.029001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.012001s ]
+SQL: INSERT INTO `reply` (`a_id`,`u_id`,`content`,`time`,`r_id`) VALUES (1,0,'                            fdfads','2015-11-24 23:14:25',4) [ RunTime:0.070004s ]
+
+[ 2015-11-24T23:14:26+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Article&a=detail&id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `article` WHERE ( id=1 )  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id =0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=1 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=1 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id!=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.002000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 219 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 219 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2015-11-24T23:14:35+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.068004s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 72 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 80 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 88 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-24T23:19:46+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.002501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:1.142517s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.145017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:19:46+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='2' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='2') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=3 and r_id=0 ) LIMIT 1   [ RunTime:0.002501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=2 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:19:48+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=3
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012501s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='3' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select * from article where ( states=1 and tag='3') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=7 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=5 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.045001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:24:44+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/tuichu
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:24:44+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:24:46+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:24:58+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:1.256019s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.258519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:26:25+08:00 ] ::1 /luntan/discuss/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.045000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:26:30+08:00 ] ::1 /luntan/discuss/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007500s ]
+SQL: SELECT * FROM `user` WHERE ( `username` = 'nannan' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\orange\luntan\ThinkPHP\Common\functions.php 第 1056 行.
+
+[ 2015-11-24T23:26:30+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Article&a=index&tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.047501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:26:32+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/tuichu
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:26:32+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.045001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:26:39+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `user` WHERE ( `username` = 'lxc0694' ) LIMIT 1   [ RunTime:0.002501s ]
+
+[ 2015-11-24T23:26:41+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.042501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:26:56+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `user` WHERE ( `username` = 'tmac' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\orange\luntan\ThinkPHP\Common\functions.php 第 1056 行.
+
+[ 2015-11-24T23:26:56+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Article&a=index&tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.050000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:27:00+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.015000s ]
+SQL: SELECT * FROM `article` WHERE ( id=4 )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id =0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id!=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002501s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 219 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 219 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.042500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:27:52+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002501s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012501s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `article` WHERE ( id=4 )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id =0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id!=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 76 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 84 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 92 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 76 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 84 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 92 行.
+NOTIC: [2] Illegal string offset 'r_id' F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 185 行.
+NOTIC: [2] Illegal string offset 'r_id' F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 185 行.
+NOTIC: [2] Illegal string offset 'r_id' F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 185 行.
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 225 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:1.264519s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.264519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:28:13+08:00 ] ::1 /luntan/discuss/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.045001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:28:19+08:00 ] ::1 /luntan/discuss/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `user` WHERE ( `username` = 'tmac' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\orange\luntan\ThinkPHP\Common\functions.php 第 1056 行.
+
+[ 2015-11-24T23:28:20+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Article&a=index&tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.045001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:28:21+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `article` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id =0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id!=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 76 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 84 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 92 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 76 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 84 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 92 行.
+NOTIC: [2] Illegal string offset 'r_id' F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 185 行.
+NOTIC: [2] Illegal string offset 'r_id' F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 185 行.
+NOTIC: [2] Illegal string offset 'r_id' F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 185 行.
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 225 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.047501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:29:04+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.012501s ]
+SQL: SELECT * FROM `article` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id =0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id!=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 76 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 84 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 92 行.
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 225 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.042501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:29:07+08:00 ] ::1 /luntan/discuss/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:29:09+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:29:11+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `article` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id =0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id =0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id!=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 76 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 84 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 92 行.
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 225 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:29:34+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012501s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `article` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id =0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id =0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id!=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 76 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 84 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 92 行.
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 225 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:1.316021s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.318521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:30:24+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012501s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `article` WHERE ( id=4 )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id =0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id!=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: tag F:\orange\luntan\discuss\Home\Controller\ArticleController.class.php 第 161 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 120 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 128 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 136 行.
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 269 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 269 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:1.990030s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.990030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:30:42+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `article` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id =0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id =0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.002501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id!=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tag F:\orange\luntan\discuss\Home\Controller\ArticleController.class.php 第 161 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 76 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 84 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 92 行.
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 225 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 225 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:1.287520s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.290020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:33:01+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:33:21+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `article` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id =0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id =0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id!=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `article` WHERE ( id= )  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `article` WHERE ( id= ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:35:17+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `article` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id =0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id =0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id!=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+NOTIC: [8] Undefined variable: tag F:\orange\luntan\discuss\Home\Controller\ArticleController.class.php 第 163 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:36:07+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.017501s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017500s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `article` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id =0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id!=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 120 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 128 行.
+NOTIC: [8] Undefined index: session F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 136 行.
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 269 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 269 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:1.622525s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.622525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:36:09+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='2' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='2') order by time desc Limit 0, 8 [ RunTime:0.002501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=3 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=2 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:36:11+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=6
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017500s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `article` WHERE ( id=6 )  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id =0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=6 and r_id =0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=6 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id!=0 ) LIMIT 1   [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 269 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 269 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-11-24T23:36:15+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=3
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='3' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='3') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=7 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=5 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:36:17+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=5
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012501s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `article` WHERE ( id=5 )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=5 and r_id =0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=5 and r_id =0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=5 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=5 and r_id!=0 ) LIMIT 1   [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 269 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 269 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:36:23+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='2' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select * from article where ( states=1 and tag='2') order by time desc Limit 0, 8 [ RunTime:0.002501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=3 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=2 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:36:25+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=3
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='3' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select * from article where ( states=1 and tag='3') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=7 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=5 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.045001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:36:27+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='2' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='2') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=3 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=2 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.042500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:36:28+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=6
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `article` WHERE ( id=6 )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id =0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=6 and r_id =0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=6 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id!=0 ) LIMIT 1   [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 269 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 269 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.047501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:37:41+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=6
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.017500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.052500s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `article` WHERE ( id=6 )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id =0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=6 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=6 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id!=0 ) LIMIT 1   [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 270 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 270 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:1.586024s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.586024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002501s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:37:44+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/tuichu
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:37:45+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.047501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:37:49+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `user` WHERE ( `username` = 'nannan' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\orange\luntan\ThinkPHP\Common\functions.php 第 1056 行.
+
+[ 2015-11-24T23:37:50+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Article&a=index&tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:37:51+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012501s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `article` WHERE ( id=4 )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id =0 ) LIMIT 1   [ RunTime:0.002501s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id =0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=4 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id!=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 270 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 270 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:37:53+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='2' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select * from article where ( states=1 and tag='2') order by time desc Limit 0, 8 [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=3 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=2 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.042501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:37:59+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/tuichu
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:37:59+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Login&a=index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:38:09+08:00 ] ::1 /luntan/discuss/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.052501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:38:12+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012501s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:38:13+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='2' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='2') order by time desc Limit 0, 8 [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=3 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=2 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.042501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:38:16+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=3
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.017501s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='3' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='3') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=7 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=5 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=4 )  [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:40:05+08:00 ] ::1 /luntan/discuss/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:40:06+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:40:08+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='2' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select * from article where ( states=1 and tag='2') order by time desc Limit 0, 8 [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=3 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=2 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:40:12+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=6
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012501s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `article` WHERE ( id=6 )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id =0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=6 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=6 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id!=0 ) LIMIT 1   [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 270 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 270 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.042501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:40:16+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:40:18+08:00 ] ::1 /luntan/discuss/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002501s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:40:20+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012501s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='2' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select * from article where ( states=1 and tag='2') order by time desc Limit 0, 8 [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=3 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=2 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.002501s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:40:22+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/index?tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002501s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 0 F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:40:24+08:00 ] ::1 /luntan/discuss/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:40:31+08:00 ] ::1 /luntan/discuss/index.php/Home/Login/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012501s ]
+SQL: SELECT * FROM `user` WHERE ( `username` = 'nannan' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\orange\luntan\ThinkPHP\Common\functions.php 第 1056 行.
+
+[ 2015-11-24T23:40:32+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Article&a=index&tag=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012501s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='1' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='1') order by time desc Limit 0, 8 [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=4 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:40:33+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/publish
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id F:\orange\luntan\discuss\Home\Controller\ArticleController.class.php 第 242 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplate [ RunTime:0.757512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.760012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:44:09+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/publish
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.015000s ]
+SQL: INSERT INTO `article` (`content`,`u_id`,`time`,`picture`,`introduction`,`tag`,`states`,`title`) VALUES ('<p>【环球网综合报道】据法新社11月24日报道，土耳其军方在土叙边境击落一架战机。　　土耳其当地电视台披露的视频画面显示，飞机被击中后在空中爆炸起火，并坠毁在土叙边境叙利亚一侧。　　路透社随后报道称，俄国防部证实，被击落战机的系俄军服役的苏-24战机。据报道，该战机是在6000米高空被击落的，战机上两名飞行员均弹射出舱，一名飞行员已落入叙利亚反对派手中。<img src=\"http://himg2.huanqiu.com/attachment2010/2015/1124/10/46/20151124104643550.jpg\" alt=\"enter image description here\" title=\"\"></p><p>对于被土耳其击落的俄战机，土耳其总统认为飞机侵犯了土耳其领空，“俄军苏-24架飞机被击落合乎规则，因其侵犯了土耳其领空。” 土耳其武装部队总参谋部的声明说，土耳其军方出动F-16战机后曾多次向这架俄罗斯战斗机发出警告，但这架战斗机毫无反应。　　俄罗斯国防部则表示，“飞机一直保持在叙利亚领空飞行，这是有飞行记录的。”战机坠毁原因可能为遭到地面火力攻击。克里姆林宫发言人就军机坠毁一事发表评论称，俄苏-24战机在叙利亚坠毁“是很严重的事件”。　　克里姆林宫方面称，普京可能会对俄飞机在叙利亚坠毁事件做出反应，他或在与约旦国王会晤期间对此进行评价。俄罗斯总统新闻秘书佩斯科夫呼吁各方“等待坠毁原因的调查结果出炉”。</p>',2,'2015-11-24 23:44:09','http://himg2.huanqiu.com/attachment2010/2015/1124/17/55/20151124055549172.jpg','据法新社11月24日报道，土耳其军方在土叙边境击落一架战机',2,1,'俄一架苏-24在土叙边境被土军方击落') [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:44:09+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Article&a=index&tag=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( states=1 and tag='2' ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: select * from article where ( states=1 and tag='2') order by time desc Limit 0, 8 [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=8 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=6 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=3 and r_id=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=2 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=1 and r_id=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=1 )  [ RunTime:0.002500s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 116 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 124 行.
+NOTIC: [2] Illegal string offset 'session' F:\orange\luntan\discuss\Runtime\Cache\2bc625079edd772d2995a98a84b128e7370d40fd.file.index.html.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:44:14+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=8
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.017501s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.015000s ]
+SQL: SELECT * FROM `article` WHERE ( id=8 )  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=8 and r_id =0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=8 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002501s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=8 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=8 and r_id!=0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 270 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 270 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.042500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:44:29+08:00 ] ::1 /luntan/discuss/index.php/Home/Article/detail?id=8
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.017500s ]
+SQL: INSERT INTO `reply` (`a_id`,`u_id`,`content`,`time`,`r_id`) VALUES (8,2,'过硬\r\n','2015-11-24 23:44:29',0) [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:44:29+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Article&a=detail&id=8
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.012500s ]
+SQL: SELECT * FROM `article` WHERE ( id=8 )  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=8 and r_id =0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=8 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002501s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=8 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=8 and r_id!=0 ) LIMIT 1   [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 270 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 270 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-24T23:44:41+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Article&a=detail&id=8
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.012500s ]
+SQL: INSERT INTO `reply` (`a_id`,`u_id`,`content`,`time`,`r_id`) VALUES (8,2,' 没错                           ','2015-11-24 23:44:41',24) [ RunTime:0.002500s ]
+
+[ 2015-11-24T23:44:41+08:00 ] ::1 /luntan/discuss/index.php?m=Home&c=Article&a=detail&id=8
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead F:\orange\luntan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012500s ]
+SQL: SHOW COLUMNS FROM `picture` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `article` WHERE ( id=8 )  [ RunTime:0.002500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=8 and r_id =0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=8 and r_id =0 ) ORDER BY time desc  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `reply` WHERE ( a_id=8 and r_id!=0 ) ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( a_id=8 and r_id!=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.002500s ]
+SQL: SELECT * FROM `user` WHERE ( id=2 )  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pagelist F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 270 行.
+NOTIC: [8] Trying to get property of non-object F:\orange\luntan\discuss\Runtime\Cache\2167ef402be1945f1bdbc925f4ca71da30e26da2.file.detail.html.php 第 270 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+

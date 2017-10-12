@@ -1,0 +1,729 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family:"Microsoft YaHei",微软雅黑;
+	color: #000;
+}
+span,p {
+	font-size: 0.8em;
+}
+div, p{
+	color: #5a5a5a;
+}
+span {
+	color: #999;
+}
+a {
+	text-decoration:none;
+	color: #999;
+}
+li {
+	list-style: none;
+}
+.nav .selected {
+	color: #fff;
+}
+#articalcontent {
+	display: none;
+}
+.classification {
+	color: #fff;
+	background-color: #7BB5DE;
+	padding: 10px;
+	display: inline-block;
+}
+input[type=button], input[type=submit] {
+	background: #5D89A8;
+	padding: 0.5em 0.5em;
+	text-align: center;
+	color: #fff;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+input[type=button]:hover {
+	background-color: #537E9C; 
+}
+.footer a {
+	color: #efefef;
+}
+/* 导航条 */
+.headerbg a {
+	color: #7bb5de;
+	font-family: "Microsoft Yahei",simsun,sans-serif;
+}
+.headerbg a:hover {
+	color: #fff;
+}
+.headerbg {
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: #353b45;
+	box-shadow: 0 3px 3px #666;
+}
+.headerbg .topnav, .signinandup {
+	box-sizing: border-box;
+}
+.headerbg li {
+	display: inline;
+	line-height: 50px;
+}
+.headerbg .topnav {
+	float: left;
+}
+.topnav .nav {
+	padding-left: 20px;
+}
+.topnav .nav li {
+	padding-left: 35px;
+	font-weight: bold;
+}
+.topnav .nav li:first-child a {
+	font-weight: bold;
+	color: #c36363;
+}
+.topnav .nav li:last-child a {
+	font-size: 0.8em;
+}
+.signinandup {
+	float: right;
+	padding-right: 20px;
+	margin-top: 15px;
+}
+.signinandup a {
+	margin-right: 10px;
+	border: 1px solid #7bb5de;
+	padding: 4px 10px;
+	border-radius: 3px;
+}
+.signinandup a:hover {
+	border: 1px solid #fff;
+}
+
+/* passagelist page */
+.smallbanner {
+	padding-top: 50px;
+	width: 100%;
+	height: 270px;
+	box-sizing: border-box;
+}
+.smallbanner img{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.contentbg {
+	height: auto;
+	width: 100%;
+	padding-top: 28px;
+	background-color: #eaeaea;
+	overflow: hidden;
+}
+.contentlist {
+	width: 80%;
+	height: auto;
+	margin: 0px auto;
+	box-shadow: 2px 3px 3px #666;
+}
+.contentlist li {
+	height: 255px;
+	width: 100%;
+	padding: 28px;
+	background-color: #fff;
+	border-bottom: 1px solid #eaeaea;
+	box-sizing: border-box;
+}
+.rightfig {
+	width: 22%;
+	float: left;
+}
+.rightfig img {
+	width: 225px;
+	height: 200px;
+	max-width:100%;
+	overflow: hidden;
+}
+.leftinfo {
+	position: relative;
+	left: 12px;
+	padding-right: 12px;
+	height: 197px;
+}
+.leftinfo .classification {
+	position: relative;
+	top: -10px;
+}
+.leftinfo h2 {
+	display: inline-block;
+	padding: 5px 0 0 20px;
+	font-size: 1.6em;
+	overflow: hidden;
+}
+.leftinfo h2 a {
+	color: #000;
+}
+.leftinfo .contentmeta {
+	padding: 14px 0;
+}
+.contentmeta p {
+	display: inline;
+	color: #999;
+}
+.contentmeta span{
+	padding-right: 40px;
+}
+.contentmeta span:last-child {
+	padding-right: 0;
+}
+.passagesum {
+	padding-top: 5px;
+	line-height: 25px;
+	overflow: hidden;
+}
+.footer {
+	width: 100%;
+	height: 150px;
+	background-color: #39729a;
+	text-align: center;
+}
+.footer p:first-child{
+	padding-top: 50px;
+}
+.footer p {
+	padding-top: 20px;
+	color: #efefef;
+}
+/* 分页 */
+.tcdPageCode { width: 685px; margin: 0 auto; padding: 50px 0;color: #428BCA;}
+.tcdPageCode a {
+	color: #428BCA;
+}
+.tcdPageCode input[type=button] {
+	padding: 0.2em 0.4em;
+	margin-left: 30px;
+}
+
+/* passagedetail */
+.passagediv {
+	width: 80%;
+	height: auto;
+	margin: 70px auto 100px auto;
+	background-color: #fff;
+	box-shadow: 2px 3px 3px #666;
+}
+.classfix {
+	position: relative;
+	top:-10px;
+	left: 50px;
+}
+.passagediv h2 {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 1.6em;
+	overflow: hidden;
+	padding-top:50px;
+	margin: 0px auto;
+}
+.passagediv .contentmeta {
+	width: 100%;
+	text-align: center;
+	margin: 15px auto;
+}
+.wholepassage {
+	padding: 0 50px 50px 50px;
+}
+.wholepassage strong {
+	font-size: 0.8em;
+}
+.wholepassage p, .wholepassage li{
+	padding: 10px 0;
+	line-height: 20px;
+}
+.wholepassage li {
+	font-size: 0.8em;
+}
+.wholepassage img {
+	padding: 10px 150px;
+	width: 100%; 
+	box-sizing: border-box;           
+}
+.comments {
+	padding: 0 40px;
+}
+.commentsheader {
+	background-color: #eaeaea;
+	line-height: 40px;
+	margin: 10px 0;
+	font-size: 1.2em;
+}
+.list {
+	padding: 0 10px;
+}
+.commentitem {
+	border-bottom: 1px solid #999; 
+}
+.commentitem .user {
+	display: inline-block;
+}
+.commentitem .user a {
+	color: #456b85;
+	font-weight: bold;
+}
+.rereply {
+	margin: 0 0 10px 30px;
+	background-color: #eaeaea;
+	padding: 10px;
+}
+.rereply .username {
+	color: #456B85;
+}
+.commentitem .showreplybtn {
+	float: right;
+	display: inline;
+	padding: 0 10px 0 0;
+	color: #999;
+	border: none;
+	background-color: #fff;
+	font-size: 0.8em;
+}
+.commentitem .showreplybtn:hover {
+	color: #428BCA;
+	border: none;
+	background-color: #fff;
+}
+.commentitem .commenttime span {
+	float: right;
+}
+.replyform{
+	display: none; 
+}
+.commentitem .replyform input {
+	padding: 0.2em 0.5em;
+	margin: 10px 0 20px 0;
+}
+.replyform .replycancel {
+	float: right;
+}
+.commentitem textarea {
+	width: 100%;
+	margin-bottom: 10px;
+	resize: none;
+}
+.commentitem .cancel {
+	float: right;
+}
+.commentcontent {
+	padding: 5px 0;
+	margin-bottom: 4px;
+}
+.commentform {
+	padding: 0 10px;
+}
+.comments #submitcomment {
+	margin-bottom: 50px;
+}
+.commentarea {
+	width: 100%;
+	height: 80px;
+	margin: 20px auto;
+	resize: none;
+}
+.wmd-preview {
+	display: none;
+}
+/* 编辑器 */
+blockquote {
+	border-left: 2px dotted #888;
+	padding-left: 5px;
+	background: #d0f0ff;
+}
+.wmd-panel
+{
+	margin: 20px 3% 20px 1%;
+	width: 94%;
+	min-width: 500px;
+}
+.wmd-button-bar 
+{
+	width: 100%;
+	background-color: #B6B6B6; 
+}
+.wmd-input 
+{
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid DarkGray;
+}
+.wmd-panel .wmd-input  {
+	height: 60px;
+	width: 100%;
+}
+.wmd-panel2 .wmd-input {
+	height: 400px;
+	width: 96%;
+}
+.wmd-preview 
+{ 
+	background-color: #fff; 
+	border: 1px solid #999;
+}
+.wmd-button-row 
+{
+	position: relative; 
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	padding: 0px;  
+	height: 20px;
+}
+.wmd-spacer
+{
+	width: 1px; 
+	height: 20px; 
+	margin-left: 14px;
+	
+	position: absolute;
+	background-color: Silver;
+	display: inline-block; 
+	list-style: none;
+}
+.wmd-button {
+    width: 20px;
+    height: 20px;
+    padding-left: 2px;
+    padding-right: 3px;
+    position: absolute;
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+}
+.wmd-button > span {
+    background-image: url(../css/images/wmd-buttons.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.wmd-spacer1
+{
+    left: 50px;
+}
+.wmd-spacer2
+{
+    left: 175px;
+}
+.wmd-spacer3
+{
+    left: 300px;
+}
+.wmd-prompt-background
+{
+	background-color: #fff;
+}
+.wmd-prompt-dialog
+{
+	padding-top: 60px;
+	height: 200px;
+	border: 1px solid #999999;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+	font-family: arial, helvetica, sans-serif;
+}
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999999;
+	color: black;
+	padding: 0.3em;
+	margin-bottom: 10px;
+}
+.wmd-prompt-dialog > form > input[type="button"]{
+	background: #5D89A8;
+	padding: 0.4em;
+	text-align: center;
+	color: #fff;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.wmd-prompt-dialog > form > input[type="button"]:hover {
+	background-color: #537E9C; 
+}
+
+/* sign up and sign in */
+.signinbg, .signupbg {
+	background: #ecf6fd;
+}
+.signindiv, .signupdiv {
+	width: 66%;
+	height: 400px;
+	padding: 100px 0 60px 0;
+	margin: 0px auto;
+}
+.signindiv .signinimg, .signupdiv .signupimg {
+	width: 65%;
+	height: 400px;
+	float: left;
+}
+.signindiv img, .signupdiv img {
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
+.signinform ,.signupform{
+	background-color: #000;
+	height: 400px;
+}
+.signinform p, .signupform p{
+	display: inline-block;
+	font-size: 1.6em;
+	color: #979696;
+}
+.signupform p {
+	margin: 20px 0 0 26px;
+}
+.signinform p {
+	margin: 40px 0 10px 26px;
+}
+.signinform a, .signupform a{
+	float: right;
+	padding: 4px 6px; 
+	margin: 26px 27px 0 0;
+	background-color: #e83a37;
+	color: #fff;
+}
+.signupform a {
+	margin: 26px 27px 0 0;
+}
+.signinform a {
+	margin: 46px 27px 0 0;
+}
+.signinform input[type=text], input[type=password], .signupform input[type=text]{
+	background-color: #16181d;
+	padding: 0.8em;
+	color: #979696;
+	border: none;
+	text-align: left;
+}
+.signinform input[type=text]:hover, input[type=password]:hover, .signupform input[type=text]:hover {
+	box-shadow: inset 0 0 2px #46DED6;
+}
+.signupform input[type=text] {
+	width: 26%;
+	margin: 10px 0 10px 26px;
+}
+.signupform input[type=password] {
+	width: 26%;
+	margin: 10px 0 10px 26px;
+}
+.signinform input[type=password], .signinform input[type=text] {
+	width: 26%;
+	margin: 20px 0 0 26px;
+}
+.signinform input[type=submit], .signupform input[type=submit] {
+	width: 29%;
+	background-color: #7bb5dd;
+	padding: 0.2em 0;
+	font-size: 1.6em;
+	color: #fff; 
+	border: none;
+	text-align: center;
+	margin: 25px 0 0 26px;
+}
+.signupform input[type=submit] {
+	margin: 16px 0 0 26px;
+}
+.signinform input[type=submit] {
+	margin: 45px 0 0 26px;
+}
+.signinform input[type=submit]:hover, .signupform input[type=submit]:hover {
+	background-color: #527E9C;
+}
+
+/* release artical page */
+.inner {
+	padding: 50px;
+	position: relative;
+}
+.inner input[type=radio] {
+	margin-bottom: 20px;
+}
+.classlist {
+	width: 10%;
+	height: 43px;
+	background-color: #7BB5DE;
+	display: inline-block;
+	float: left;
+}
+.classlist li {
+	display: none;
+	width: 100%;
+	padding: 10px;
+	float: left;
+	position: relative;
+	z-index: 50;
+	border-left: 2px solid #7BB5DE;
+	border-right: 2px solid #7BB5DE;
+	border-bottom: 2px solid #7BB5DE;
+	border-top: none;
+}
+.classlist h3 {
+	width: 100%;
+	font-size: 1em;
+	font-weight: normal;
+	display: inline-block;
+	color: #fff;
+	padding: 10px;
+	background-color: #7BB5DE;
+	border: 2px solid #7BB5DE;
+}
+.classitem {
+	background-color: #fff;
+	color: #5f5f5f;
+	border-top: 1px solid #7bb5de;
+}
+.articalname {
+	margin: 4px 0 20px 0px;
+	padding: 0.2em 0.5em;
+	line-height: 30px; 
+	width: 50%;
+	display: inline-block;
+}
+.file-box{ position:relative;width:500px}
+.txt {
+	padding: 0.2em;
+	line-height: 25px; 
+	width: 50%;
+	margin-bottom: 10px;
+}
+.file{ position:absolute; top:0px; right:176px; height:36px; filter:alpha(opacity:0);opacity: 0;width:62px }
+.filebtn {
+	margin-bottom: 10px;
+} 
+.summary {
+	width: 98%;
+	margin-bottom: 10px;
+	padding: 0.4em;
+}
+.coverimgtxt {
+	margin-bottom: 10px;
+}
+.inner input[type=submit] {
+	margin: 30px 0 10px 0;
+}
+.inner input[id=submitartical] {
+	float: left;
+}
+.inner input[id=cancel] {
+	float: right;
+}
+.inner .bigger {
+	font-size: 1.4em;
+}
+.clear {
+	clear: both;
+}
+
+/* index page */
+.header {
+	width: 100%;
+	height: 70px;
+	background-color: #353b45;
+	overflow: hidden;
+}
+.logo {
+	width: 200px;
+	height: 40px;
+	margin: 15px auto;
+}
+.logo img {
+	width: 100%;
+	height: 40px;
+}
+.bigbanner {
+	width: 100%;
+	height: 582px;
+	text-align: center;
+	overflow: hidden;
+	background-image: url(images/bigbanner.png);
+}
+.bigbanner p {
+	color: #fff;
+	font-size: 1.2em;
+	margin-top: 80px;
+	box-sizing: border-box;
+}
+.bigbanner .indexsignup {
+	margin-top: 70px;
+}
+.bigbanner .indexlist {
+	margin-top: 30px;
+}
+.bigbanner .indexsignup a {
+	border: 3px solid #fff;
+	color: #fff;
+	font-size: 2em;
+	padding: 6px 12px;
+	border-radius: 5px;
+}
+.bigbanner .indexlist a {
+	border-bottom: 3px solid #fff;
+	color: #fff;
+	font-size: 1.8em;
+}
+.content {
+	width: 100%;
+	height: 914px;
+	background: url(images/background.png);
+	overflow: hidden;
+}
+.slogan {
+	width: 60%;
+	height: 210px;
+	margin-top: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+.slogan img {
+	float: left;
+	width: 190px;
+	height: 200px;
+}
+.slogan h2{
+	font-size: 2em;
+	margin-top: 30px;
+}
+.slogan .righttext {
+	margin-left: 220px;
+}
+.slogan p {
+	margin-top: 30px;
+	font-size: 1em;
+	color: #000;
+}
+.aboutus {
+	padding: 50px 100px;
+	box-sizing: border-box;
+}
+.aboutus h3 {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 2em;
+}
+.aboutus h4 {
+	margin: 20px 0;
+}
+.aboutus p {
+	padding-bottom: 10px;
+}
