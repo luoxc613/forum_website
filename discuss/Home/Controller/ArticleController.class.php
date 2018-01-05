@@ -1,3 +1,5 @@
+// 因为这段能够表现我熟悉掌握了thinkphp框架和smarty框架，且灵活运用了MVC模式，在逻辑处理上，对数据库的操作上，也能有所体现
+
 <?php
 	namespace Home\Controller;
 	use Think\Controller;
